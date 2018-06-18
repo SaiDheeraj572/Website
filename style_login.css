@@ -1,0 +1,73 @@
+body{
+    background: url(map.png) center center fixed no-repeat;
+    background-size: cover;
+}
+
+.loginbox{
+    float: left;
+    width: 360px;
+    height: 520px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    position: absolute;
+    box-sizing: border-box;
+    padding-left: 4px;
+    top: 10%;
+    left: 10%;
+    font-size: 17px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+button{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #25c16f;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 50px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: forestgreen;
+    color: #fff;
+}
+
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+}
+
+.loginbox input{
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+.loginbox input[type="text"]{
+    border: none;
+    border-bottom: 1px solid #000;
+    background: transparent;
+    outline: none;
+    height: 40px;   
+    font-size: 16px;
+    color: grey;
+}
+
+.loginbox input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #000;
+    background: transparent;
+    outline: none;
+    height: 40px;   
+    font-size: 16px;
+    color: grey;
+}
+
+
+::placeholder{
+    color:black;
+    opacity: 0.5;
+}

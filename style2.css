@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body{
+    font-family: 'Roboto',sans-serif;
+    background: url(Capture1.png) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.main-section{
+    margin: 0 auto;
+    margin-top: 130px;
+    padding: 0;
+}
+
+.modal-content{
+    opacity: 0.95;
+    padding: 0 18px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.form-group{
+    margin-bottom: 25px;
+}
+
+.form-group input{
+    height: 42px;
+    border-radius: 5px;
+    border: 0;
+    font-size: 18px;
+}

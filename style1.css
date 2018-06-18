@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body{
+   /* background: #e6fff2;*/
+/*    background: #f7fffc;*/
+    background: url(Capture1.PNG) no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Roboto',sans-serif;
+}
+
+p{
+    font-size: 17px;
+}
+
+/*.form-control{
+    width: 200px !important;
+    padding-left: 20px;
+}*/
+
+
+.loginbox{
+    float: left;
+    width: 360px;
+    height: 520px;
+    top: 55%;
+    left: 80%;
+    background-color: white;
+    color: black;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 29px 30px;
+    font-size: 17px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}*/
+
+.image{
+    width: 120px;
+}
+
+.logo{
+    width: 40px;
+}
+
+.navbar{
+    top: 4%;
+}
+
+.page-top{
+    top: 5%;
+    left: 12%;
+    font-family: sans-serif;
+    color: rgb(0,100,100);
+    position: absolute;
+    font-size: 25px;
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+    color: grey;
+}
+
+h2.top{
+    float: left;
+    top: 20%;
+    left: 12%;
+    position: absolute;
+    color: #2d5201;
+    font-size: 50px;
+    font-family: rockwell;
+}
+
+h2.bottom{
+    float: left;
+    top: 29%;
+    left: 12%;
+    position: absolute;
+    color: #2d5210;
+    font-size: 50px;
+    font-family: rockwell;
+}
+
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+}
+
+.loginbox input{
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+.loginbox input[type="text"]{
+    border: none;
+    border-bottom: 1px solid #000;
+    background: transparent;
+    outline: none;
+    height: 40px;   
+    font-size: 16px;
+    color: grey;
+}
+
+::placeholder{
+    color:black;
+    opacity: 0.5;
+}
+
+label{
+    font-weight: 100;
+    font-size: 17px;
+}
+
+button{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #25c16f;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 50px;
+    width:300px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: forestgreen;
+    color: #fff;
+}
+
+#radios label {
+	cursor: pointer;
+	position: relative;
+}
+
+#radios label + label {
+	margin-left: 15px;
+}
+
+input[type="radio"] {
+	opacity: 0; /* hidden but still tabable */
+	position: absolute;
+}
+
+input[type="radio"] + span {
+	font-family: 'Material Icons';
+	color: black;
+	border-radius: 50%;
+	padding: 11px;
+    padding-top: 23px;
+	transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+}
+
+input[type="radio"]:checked + span {
+	color: #D9E7FD;
+  background-color: #25c16f;
+}
+
+input[type="radio"]:focus + span {
+	color: #fff;
+}
+
+/* ================ TOOLTIPS ================= */
+
+#radios label:hover::before {
+	content: attr(for);
+	font-family: Roboto, -apple-system, sans-serif;
+	text-transform: capitalize;
+	font-size: 11px;
+	position: absolute;
+	top: 170%;
+	left: 0;
+	right: 0;
+	opacity: 0.75;
+	background-color: #323232;
+	color: black;	
+	padding: 4px;
+	border-radius: 3px;
+    display: block;
+}
+
+.dry{
+    color: black;
+}
+
+.eprc{
+    color: black;
+}
+
+.free{
+    color: black;
+}
+
+.dump{
+    color: black;
+}
+
+.about{
+    top: 43%;
+    left: 12%;
+    position: absolute;
+}
+
+.hello{
+    top: 102%;
+    position: absolute;
+}
+
+.loginbox br{
+    margin: 0px 0;
+}
+
+.hey{
+    color: darkgreen;
+    font-weight: bold;
+}
+
+#alertBox{
+    background-color: darkgreen;
+    }
+
+.yes{
+        font-size: 50px;
+}
+    
+.about br{
+        display: block;
+        margin: 7px 0;
+}
+
+.navbar-default{
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+}
+
+
+
+

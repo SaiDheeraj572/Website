@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+ <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+
+<script src="my_js.js"></script>
+    
+<script> 
+    
+function myFunction(){
+    if(document.getElementById("name").value=="" || document.getElementById("phone").value=="" || document.getElementById("location").value==""){
+        alert("Please fill all the fields");
+    }
+    else{
+        alert("Thank you for choosing Trashin Recycling.Our Customer Relationship team will get in touch with you shortly.");
+    }
+
+}
+</script>    
+    
+<head>
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+<title>Trashin Recycling</title>
+     <link rel="icon" href="trashin_logo.png" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+     <a class="page-top"><div style="float:left"><img src="trashin_logo.png" width="25px"/>&nbsp;</div><div style="float:left">TRASHIN RECYCLING</div></a>
+    <h2>Zero-Waste Solutions or your business</h2><br>
+    <h3>Now in Bangalore and Mangalore</h3>
+    <div class="loginbox">
+    <img src="avatar1.png" class="avatar">
+    <h1>Register Here</h1>
+        <form>
+            <p>Organisation Name</p>
+            <input type="text" placeholder="Enter the Organisation Name" id="name" required><br><br>
+            <div>
+                <label for="sel1">Select Service</label><br><br>
+                <select class="form-control" id="sel1" name="service">
+                    <option>Dry Waste Recycling</option>
+                    <option>Free Waste Audit</option>
+                    <option>Smart Dumpster Rental</option>
+                    <option>EPR Complaints</option>
+                </select>
+            </div>
+            <br>
+        <p>Contact Number</p>
+            <input type="text" maxlength="10" name="contact" placeholder="Enter Contact Number" id="phone" required><br><br>
+            <p>Location</p>
+            <button class="btn">Locate Me</button><br><br>
+             <button class="btn btn-block" onclick="myFunction()">Get Started</button>
+        </form>
+    </div>
+
+                                                                                                                   
+</body>
+
+</html>
